@@ -15,3 +15,4 @@ git stash 在工作区撤销文件修改(暂时撤销，如果后悔刚才的撤
 git reset HEAD <files>  把暂存区撤销修改到工作区
 git reset --hard <commit> 把历史提交撤销修改
 
+xxxyyy
