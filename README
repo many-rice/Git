@@ -6,3 +6,7 @@ git add    跟踪，提交到暂存区
 commit     把暂存区的文件提交到git上去
 git log    查看git的提交日志
 git status 查看git的文件提交状态
+git diff   比较历史提交和工作区的不同
+git diff --staged 比较历史提交和暂存区的不同
+git rm     删除暂存区的文件  （再用git commit -m “xxx” 来进行确认？）
+git mv     修改文件的名字   （再用 git commit -m "xxx" 来进行确认？）
