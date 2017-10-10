@@ -19,6 +19,16 @@ git tag -a v1.0 -m "my version v1.0" 给最近历史提交的版本附上标签
 git tag -a v1.0 -m "my version v1.0" <commit>  给特定的历史版本附上标签
 git branch 查看分支情况
 git branch xxx 创建分支
+git branch -d xxx 删除分支
+git branch -D xxx 强力删除分支
+git branch --merge 查看合并情况
+git branch --no-merge 查看没有合并情况
 git checkout xxx  切换分支
 git merge xxx  合并分支
+。如果合并对于一个文件修改冲突，那么只要修改这个文件，然后git add file->git commit -m "xx.xxx"提交即可。
 git checkout -b xxx  创建并合并分支
+。基于前一个分支的重演合并(分三步)
+git rebase branch1  branch2
+git checkout branch1
+git merge branch2
+。如果重演合并对于一个文件修改冲突，那么产生一个临时分支，供你修改这个文件。然后使用git add file ，最后使用git rebase --continue 解决冲突。
