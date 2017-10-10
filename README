@@ -32,3 +32,6 @@ git rebase branch1  branch2
 git checkout branch1
 git merge branch2
 。如果重演合并对于一个文件修改冲突，那么产生一个临时分支，供你修改这个文件。然后使用git add file ，最后使用git rebase --continue 解决冲突。
+
+
+this is update
