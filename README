@@ -18,4 +18,7 @@ git tag 查看标签
 git tag -a v1.0 -m "my version v1.0" 给最近历史提交的版本附上标签
 git tag -a v1.0 -m "my version v1.0" <commit>  给特定的历史版本附上标签
 git branch 查看分支情况
-
+git branch xxx 创建分支
+git checkout xxx  切换分支
+git merge xxx  合并分支
+git checkout -b xxx  创建并合并分支
