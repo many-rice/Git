@@ -17,4 +17,5 @@ git reset --hard <commit> 把历史提交撤销修改
 git tag 查看标签
 git tag -a v1.0 -m "my version v1.0" 给最近历史提交的版本附上标签
 git tag -a v1.0 -m "my version v1.0" <commit>  给特定的历史版本附上标签
+git branch 查看分支情况
 
