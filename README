@@ -10,3 +10,6 @@ git diff   比较历史提交和工作区的不同
 git diff --staged 比较历史提交和暂存区的不同
 git rm     删除暂存区的文件  （再用git commit -m “xxx” 来进行确认？）
 git mv     修改文件的名字   （再用 git commit -m "xxx" 来进行确认？）
+git checkout --  filename  在工作区撤销文件修改
+git reset HEAD <files>  把暂存区撤销修改到工作区
+git reset --hard <commit> 把历史提交撤销修改
